@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9324A7CB1F59A583007E204C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324A7CA1F59A583007E204C /* AppDelegate.swift */; };
+		9324A7CD1F59A583007E204C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324A7CC1F59A583007E204C /* ViewController.swift */; };
+		9324A7D01F59A583007E204C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9324A7CE1F59A583007E204C /* Main.storyboard */; };
+		9324A7D21F59A584007E204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9324A7D11F59A584007E204C /* Assets.xcassets */; };
+		9324A7D51F59A585007E204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9324A7D31F59A585007E204C /* LaunchScreen.storyboard */; };
+		9324A7DD1F59A71B007E204C /* CurrencyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324A7DC1F59A71B007E204C /* CurrencyListTableViewController.swift */; };
+		9324A7E31F59B68C007E204C /* currencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 9324A7E21F59B68C007E204C /* currencies.json */; };
+		9324A7E51F59B737007E204C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324A7E41F59B737007E204C /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9324A7C71F59A582007E204C /* SpreebieCurrencyPickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreebieCurrencyPickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9324A7CA1F59A583007E204C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9324A7CC1F59A583007E204C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9324A7CF1F59A583007E204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9324A7D11F59A584007E204C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9324A7D41F59A585007E204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9324A7D61F59A585007E204C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9324A7DC1F59A71B007E204C /* CurrencyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyListTableViewController.swift; sourceTree = "<group>"; };
+		9324A7E21F59B68C007E204C /* currencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = currencies.json; sourceTree = "<group>"; };
+		9324A7E41F59B737007E204C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9324A7C41F59A582007E204C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9324A7BE1F59A581007E204C = {
+			isa = PBXGroup;
+			children = (
+				9324A7C91F59A582007E204C /* SpreebieCurrencyPickerExample */,
+				9324A7C81F59A582007E204C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9324A7C81F59A582007E204C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9324A7C71F59A582007E204C /* SpreebieCurrencyPickerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9324A7C91F59A582007E204C /* SpreebieCurrencyPickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				9324A7CA1F59A583007E204C /* AppDelegate.swift */,
+				9324A7E21F59B68C007E204C /* currencies.json */,
+				9324A7DC1F59A71B007E204C /* CurrencyListTableViewController.swift */,
+				9324A7E41F59B737007E204C /* SwiftyJSON.swift */,
+				9324A7CC1F59A583007E204C /* ViewController.swift */,
+				9324A7CE1F59A583007E204C /* Main.storyboard */,
+				9324A7D11F59A584007E204C /* Assets.xcassets */,
+				9324A7D31F59A585007E204C /* LaunchScreen.storyboard */,
+				9324A7D61F59A585007E204C /* Info.plist */,
+			);
+			path = SpreebieCurrencyPickerExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9324A7C61F59A582007E204C /* SpreebieCurrencyPickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9324A7D91F59A585007E204C /* Build configuration list for PBXNativeTarget "SpreebieCurrencyPickerExample" */;
+			buildPhases = (
+				9324A7C31F59A582007E204C /* Sources */,
+				9324A7C41F59A582007E204C /* Frameworks */,
+				9324A7C51F59A582007E204C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpreebieCurrencyPickerExample;
+			productName = SpreebieCurrencyPickerExample;
+			productReference = 9324A7C71F59A582007E204C /* SpreebieCurrencyPickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9324A7BF1F59A581007E204C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Open Beacon";
+				TargetAttributes = {
+					9324A7C61F59A582007E204C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q3QATXHHM9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9324A7C21F59A581007E204C /* Build configuration list for PBXProject "SpreebieCurrencyPickerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9324A7BE1F59A581007E204C;
+			productRefGroup = 9324A7C81F59A582007E204C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9324A7C61F59A582007E204C /* SpreebieCurrencyPickerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9324A7C51F59A582007E204C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324A7D51F59A585007E204C /* LaunchScreen.storyboard in Resources */,
+				9324A7D21F59A584007E204C /* Assets.xcassets in Resources */,
+				9324A7E31F59B68C007E204C /* currencies.json in Resources */,
+				9324A7D01F59A583007E204C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9324A7C31F59A582007E204C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324A7CD1F59A583007E204C /* ViewController.swift in Sources */,
+				9324A7DD1F59A71B007E204C /* CurrencyListTableViewController.swift in Sources */,
+				9324A7CB1F59A583007E204C /* AppDelegate.swift in Sources */,
+				9324A7E51F59B737007E204C /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9324A7CE1F59A583007E204C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9324A7CF1F59A583007E204C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9324A7D31F59A585007E204C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9324A7D41F59A585007E204C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9324A7D71F59A585007E204C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9324A7D81F59A585007E204C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9324A7DA1F59A585007E204C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3QATXHHM9;
+				INFOPLIST_FILE = SpreebieCurrencyPickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.openbeacon.SpreebieCurrencyPickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9324A7DB1F59A585007E204C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3QATXHHM9;
+				INFOPLIST_FILE = SpreebieCurrencyPickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.openbeacon.SpreebieCurrencyPickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9324A7C21F59A581007E204C /* Build configuration list for PBXProject "SpreebieCurrencyPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9324A7D71F59A585007E204C /* Debug */,
+				9324A7D81F59A585007E204C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9324A7D91F59A585007E204C /* Build configuration list for PBXNativeTarget "SpreebieCurrencyPickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9324A7DA1F59A585007E204C /* Debug */,
+				9324A7DB1F59A585007E204C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9324A7BF1F59A581007E204C /* Project object */;
+}
